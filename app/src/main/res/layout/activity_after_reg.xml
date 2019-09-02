@@ -1,0 +1,109 @@
+<FrameLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_horizontal"
+    android:layout_weight="30"
+    android:id="@+id/root"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".AfterReg">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Thanks for Joining ABVP"
+      android:layout_marginLeft="50dp"
+      android:layout_marginTop="30dp"
+      android:id="@+id/text5"
+      android:textStyle="bold"
+      android:fontFamily="sans-serif-condensed"
+      android:textSize="25dp"/>
+
+
+
+
+  <ImageView
+        android:id="@+id/imgbtnUploadPendingPods"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/tempard"/>
+
+  <ImageView
+      android:layout_width="100dp"
+      android:layout_height="70dp"
+      android:layout_marginLeft="20dp"
+      android:background="@drawable/border1"
+      android:src="@drawable/phto"
+      android:id="@+id/icon"
+      android:layout_marginTop="230dp"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310dp"
+        android:layout_marginLeft="80dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="13dp"
+        android:textColor="@color/colorWhite"
+        android:text="Hello"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="332dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="13dp"
+        android:textColor="@color/colorWhite"
+        android:text="Hello"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="359dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:layout_marginLeft="80dp"
+        android:textSize="13dp"
+        android:textColor="@color/colorWhite"
+        android:text="Hello"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="80dp"
+        android:textSize="13dp"
+        android:textColor="@color/colorWhite"
+        android:text="Hello"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+  <TextView
+      android:id="@+id/hidden_text"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_marginTop="550dp"
+      android:text="@string/hidden_text"
+      android:textColor="@color/colorSecondaryLight"
+      android:textSize="14sp"
+      android:visibility="invisible" />
+
+  <Button
+      android:id="@+id/custom_page_screenshot"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="450dp"
+      android:text="@string/custom_page_screenshot"
+      android:textColor="@android:color/white"
+      android:textSize="14sp" />
+
+</FrameLayout>

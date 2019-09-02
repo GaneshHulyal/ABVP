@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ABVP</string>
+    <!--Other string resources also defined in this file… -->
+
+    <string name="feedbacktype2">Engineering</string>
+    <string name="feedbacktype3">Commerce</string>
+    <string name="feedbacktype4">Arts</string>
+    <string name="feedbacktype5">Medical</string>
+    <string name="feedbacktype6">LAW</string>
+    <string name="feedbacktype7">Other</string>
+
+    <string name="sharing_text">Your sharing text goes here…</string>
+    <string name="share_title">Share Screenshot</string>
+    <string name="screenshot_take_failed">Failed to take screenshot!!</string>
+    <string name="wait">Please wait…</string>
+    <string name="full_page_screenshot">Full Page Screenshot</string>
+    <string name="hidden_text">Hidden Text</string>
+    <string name="custom_page_screenshot">Custom Page Screenshot</string>
+
+    <string name="blood">Select Blood Group"></string>
+    <string name="stream">Select Your Stream"></string>
+    <string name="gender">Select Gender"></string>
+
+    <string name="spinner_title">Select Blood Group</string>
+    <string-array name="feedbacktypelist">
+        <item>@string/feedbacktype2</item>
+        <item>@string/feedbacktype3</item>
+        <item>@string/feedbacktype4</item>
+        <item>@string/feedbacktype5</item>
+        <item>@string/feedbacktype6</item>
+        <item>@string/feedbacktype7</item>
+    </string-array>
+
+    <string name="bl2">A +</string>
+    <string name="bl3">A -</string>
+    <string name="bl4">B +</string>
+    <string name="bl5">B -</string>
+    <string name="bl6">AB +</string>
+    <string name="bl7">AB -</string>
+    <string name="bl8">O +</string>
+    <string name="bl9">O -</string>
+
+    <string-array name="bloodgrplist">
+        <item>@string/bl2</item>
+        <item>@string/bl3</item>
+        <item>@string/bl4</item>
+        <item>@string/bl5</item>
+        <item>@string/bl6</item>
+        <item>@string/bl7</item>
+        <item>@string/bl8</item>
+        <item>@string/bl9</item>
+    </string-array>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string-array name="gender">
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+    <array name="teams">
+        <item>Avengers</item>
+        <item>X Men</item>
+        <item>Justice League</item>
+    </array>
+
+
+</resources>
+
